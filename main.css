@@ -1,0 +1,318 @@
+* {
+  box-sizing: border-box ;
+}
+body {
+  font-size: 14px;
+}
+.home {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.Header {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.Navbar {
+  width: 100%;
+  height: 108px;
+  background: rgba(162,0,224,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v88_15 {
+  width: 327px;
+  height: 29px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 32px;
+  opacity: 1;
+  position: absolute;
+  top: 36px;
+  left: 1064px;
+  overflow: hidden;
+}
+.AboutT {
+  width: 74px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  display:inline;
+  top: 0px;
+  left: 0px;
+  font-family: Inter;
+  font-weight: bolder;
+  font-size: 24px;
+  opacity: 1;
+
+}
+.ServicesT {
+  width: 105px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  bottom: 21px;
+  left: 106px;
+  font-family: Inter;
+  font-weight: bolder;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.PricingT {
+  width: 85px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  bottom: 21px;
+  left: 243px;
+  font-family: Inter;
+  font-weight: bolder;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.SmallLogo {
+  width: 98px;
+  height: 103px;
+  background: url("images/Parking_App_logo .png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 26px;
+  overflow: hidden;
+}
+/* .SignupButton {
+  width: 198px;
+  height: 59px;
+  background: rgba(245,208,12,1);
+  opacity: 1;
+  position: absolute;
+  top: 21px;
+  left: 842px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+} */
+ .SignUpT {
+  width: 125px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 35px;
+  left: 892px;
+  font-family: Inter;
+  font-weight: bolder;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+} 
+.LoginT {
+  width: 125px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 35px;
+  left: 692px;
+  font-family: Inter;
+  font-weight: bolder;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+} 
+
+
+.HomeBg {
+  width: 100%;
+  height: 916px;
+  background: url("images/parking-lot.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 108px;
+  left: 0px;
+  overflow: hidden;
+}
+.FindSpotB {
+  width: 384px;
+  height: 59px;
+  background: rgba(245,208,12,1);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 662px;
+  left: 978px;
+  overflow: hidden;
+}
+.FindSpotBox {
+  width: 384px;
+  height: 59px;
+  background: rgba(245,208,12,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.Find {
+  width: 316px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 678px;
+  left: 1012px;
+  font-family: Inter;
+  font-weight: bolder;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.PullInT {
+  width: 608px;
+  color: rgba(245,208,12,1);
+  position: absolute;
+  top: 483px;
+  left: 42px;
+  font-family: Inter;
+  font-weight: bolder;
+  font-size: 96px;
+  opacity: 1;
+  text-align: left;
+}
+.logo {
+  width: 402px;
+  height: 365px;
+  background: url("images/Parking_App_logo .png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 147px;
+  left: 43px;
+  overflow: hidden;
+}
+.playstore {
+  width: 270px;
+  height: 92px;
+  background: url("images/playstore.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 283px;
+  left: 460px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.appstore {
+  width: 289px;
+  height: 93px;
+  background: url("images/App store.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 282px;
+  left: 763px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.map {
+  width: 134px;
+  height: 133px;
+  background:url("images/map.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 512px;
+  left: 1090px;
+  overflow: hidden;
+}
+
+#signup{
+  cursor:pointer;
+  transition-duration: 0.4s;
+  background-color:rgba(245,208,12,1);
+  width: 198px;
+  height: 59px;
+  opacity: 1;
+  position: absolute;
+  top: 21px;
+  left: 842px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+  transition-duration: 0.4s;
+  text-align: center;
+  
+
+}
+
+#signup:hover{
+  background-color: darkgoldenrod;
+}
+
+#login{
+  cursor:pointer;
+  transition-duration: 0.4s;
+  background-color:rgba(245,208,12,1);
+  width: 198px;
+  height: 59px;
+  opacity: 1;
+  position: absolute;
+  top: 21px;
+  left: 642px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+  transition-duration: 0.4s;
+  text-align: center;
+
+}
+
+#login:hover{
+  background-color: darkgoldenrod;
+}
+
+
+
+

@@ -1,0 +1,109 @@
+body
+{
+background: url("images/2.jpeg");
+
+background-size:1600px 1000px;
+
+}
+.container{
+    width : 300px;
+    height: 450px;
+    background:rgba(255,255,255,0.25);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: blur(0,3px);
+    -webkit-backdrop-filter: blur(0.3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.18);
+    margin: 80px auto;
+}
+
+img{
+    width:100px;
+    position: relative;
+    top:-40px;
+    left: 33%;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    margin-top: -10px;
+    ;
+
+}
+
+form{
+    margin: 30px;
+}
+
+label{
+    display:block;
+    color:white;
+    margin-top: 10px;
+}
+
+input{
+    display: block;
+    width: 80%;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid white;
+    padding:10px;
+    color:white;
+
+}
+
+
+::placeholder{
+    color:white;
+    opacity:0.4;
+
+}
+
+button{
+    width:90%;
+    margin-top: 10px;
+    padding: 8px;
+    border:none;
+    outline:none;
+    background:blueviolet;
+    color:white;
+    font-size:17px;
+    cursor: pointer;
+    transition: 0.2%;
+    border-radius:5px;
+    margin-top: 10px;
+}
+
+.forgot{
+    margin-left: 30%;
+    text-decoration: none;
+    color:white;
+
+}
+
+button span{
+    display:inline-block;
+    position:relative;
+    transition:0.5%;
+}
+
+button span:after{
+    content:'\00bb';
+    position:absolute;
+    opacity:0;
+    top:0;
+    right:-15px;
+    transform:0.5%;
+}
+
+button:hover span{
+    padding-right:25px;
+}
+
+button:hover span:after{
+    opacity:1;
+    right:0;
+}
